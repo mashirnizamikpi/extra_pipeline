@@ -24,7 +24,7 @@ public class ComparisonTest {
 		num.add(88);
 		num.add(34);
 		
-		Comparison mm = new Comparson();
+		Comparison mm = new Comparison();
 		
 		Integer a = mm.maxInt(num);
 		assertEquals(80, a.intValue());
